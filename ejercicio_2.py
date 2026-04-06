@@ -28,9 +28,9 @@ class Punto:
         """.strip())
     
     def opuesto(self):
-        opuesto_x = -self.x
-        opuesto_y = -self.y
-        return f"Opuesto de X: {opuesto_x} --- Opuesto de Y: {opuesto_y}"
+        self.x = -self.x
+        self.y = -self.y
+        return f"Opuesto de X: {self.x} --- Opuesto de Y: {self.y}"
         
     
 prueba_ejes = Punto(5,8)
@@ -39,3 +39,4 @@ print(prueba_ejes.eje_x())
 print(prueba_ejes.eje_y())
 prueba_ejes.impresión()
 print(prueba_ejes.opuesto())
+prueba_ejes.impresión()
