@@ -30,7 +30,7 @@ class Punto:
     def opuesto(self):
         opuesto_x = -self.x
         opuesto_y = -self.y
-        return "Opuesto de ",{opuesto_x},"Opuesto de,{opuesto_y}"
+        return f"Opuesto de X: {opuesto_x} --- Opuesto de Y: {opuesto_y}"
         
     
 prueba_ejes = Punto(5,8)
