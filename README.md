@@ -4,3 +4,5 @@
 ● 4. Manejo de programación básica en Python 3
 ● 5. Manejo de conceptos vinculados a POO
 ● 6. Manejo básico de Git y GitHub (crear repositorio y subir archivos)
+
+NOMBRE : LUCAS CANELLA
